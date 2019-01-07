@@ -1,0 +1,272 @@
+html, body {
+	background-color: white;
+	max-width: 100%;
+	overflow-x: hidden;	
+	overflow: show;
+}
+
+body {
+	position: relative;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-weight: 400 !important;
+	font-size:50px !important;
+}
+
+h2 {
+	font-weight: 550 !important;
+	font-size:50px !important;
+	font-family: Bradley Hand, cursive  !important;
+}
+
+h4 {
+	color: #f2f5fc;
+	padding-bottom: 2%;
+	font-family: Courier New body copy;
+}
+
+h5 {
+	font-family: Courier New body copy;
+	font-weight: 300;
+	font-size: 16px;
+
+}
+
+h6 {
+	text-align: left;
+}
+
+p {
+	padding-left: 2%;
+}
+
+a:link {
+    text-decoration: none !important;
+}
+
+a:visited {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a:active {
+    text-decoration: none !important;
+}
+
+
+
+/*------Main Page-----*/
+
+
+#footer {
+	height:50px;
+	color: #05283C !important;
+	background-color: #05283C !important;
+}
+
+
+/*------Navigation bar----*/
+
+.navbar {
+	color: #f2f5fc !important;
+	background-color:#05283C !important;
+	font-family: Courier New, Courier, monospace !important;
+}
+
+#home {
+	margin: right;
+}
+
+.updateDate {
+	color:#f2f5fc;
+	width: 55%;
+	min-width: 260px;
+	height: 55%;
+	padding-left: 7px;
+	font-size: 14px;
+	font-weight: 300;
+	position: absolute;
+	top: 24%;
+	text-align: left;
+}
+
+ul {
+  list-style: none;
+}
+
+
+/*---------Contact Page---------*/
+input[type=text], select, textarea {
+	width: 100%;
+	min-width:330px;
+	height: 4%;
+	padding: 12px;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+	
+}
+
+input[type=submit] {
+	background-color: #0A1F2A;
+	color: #f2f5fc;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-top: 1%;
+}
+
+input[type=submit]:hover {
+	background-color: #8f9cba;
+}
+
+#contact {
+	border-radius: 5px;
+	background color: #f2f5fc;
+	margin-top: 1%;
+	margin-left: 3%;
+	width:50%;
+	height: 100%;
+	float:left;
+}
+
+#contactTitle {
+	width: 100%;
+	min-width:330px;
+}
+
+#names {
+	padding-top: 3%;
+
+}
+
+#linkedin {
+	width: 100%;
+	max-width: 100px;
+	max-height: 100px;
+	height: 100%;
+}
+
+#linkedinLink {
+	width: 20%;
+	min-width: 250px;
+	height: 33%;
+	min-height: 250px;
+	float:right;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5%;
+	margin-right: 15%;
+}
+
+#city {
+	margin-bottom: 2%;
+}
+
+#linkedin:hover {
+  	-webkit-transition: 0.2s;
+  	-moz-transition: 0.2s;
+ 	 -o-transition: 0.2s;
+ 	 transition: 0.2s;
+  	-ms-transform: scale(1.02,1.02); /* IE 9 */
+  	-webkit-transform: scale(1.02,1.02); /* Safari */
+  	transform: scale(1.02,1.02); /* Standard syntax */
+  	
+}
+
+#contactFooter {
+	color: #f2f5fc;
+	font-weight: normal;
+	font-family: Courier New, Courier, monospace !important;
+}
+
+/*--------------Photography page------------------------*/
+
+#introPhoto {
+	padding-top:80px;
+	height:auto;
+	min-height: 900px;
+	color:#05283C;
+	background-color: #f2f5fc;
+	font-family: Courier New, Courier, monospace;
+	text-align: center;
+	padding-left: 4%;
+	padding-right: 4%;	
+}
+
+.col-md-3 {
+	height: auto;
+	width: auto;
+	min-width: 25%;
+	padding-bottom: 5% !important;
+	margin: auto;
+}
+
+
+
+/*----Hover over effects----*/
+.photo-img {
+	padding-top:4%;
+}
+
+
+.photoImage:hover {
+	opacity: 0.5;
+		
+}
+
+.description {
+	color: white;
+	width: 50%;
+	border: 1px solid white;
+	width: 70%;
+	margin: auto;
+}
+
+/*---------Mi Historia---------*/
+#intro {
+	padding-top:80px;
+	height:100%;
+	min-height: 800px;
+	color:black;
+	background-color: white;
+	text-align: center;
+	padding-left: 4%;
+	padding-right: 4%;
+
+
+}
+
+#historia {
+	margin-top: 7%;
+	font-family: Courier New, Courier, monospace;
+	font-weight: 300;
+	font-size: 18px;
+
+}
+
+.logo {
+	width: 30%;
+	height: 20%;
+
+}
+
+
+
+
+
+
+
+
+
+
